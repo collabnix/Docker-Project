@@ -1,20 +1,20 @@
-Dockarize React-App
+Dockerize React-App
 
 Step1
 git clone https://github.com/Himanshuu03/Docker-Project
 
 step2
-cd Dockar-Project
+
+cd Docker-Project
 
 step3
-#create dockar image
-dockar build -t himanshuu03/crypto-react-app .
+
+#create docker image
+
+docker build -t himanshuu03/Cryptotracker .
 
 step4
-#run it on server
-dockar run -p 3000:3000 himanshuu03/crypto-react-app
-</br>
-or
-</br>
-dockar run -publish 3000:3000 himanshuu03/crypto-react-app
 
+#run it on server
+
+docker run -p 3000:3000 himanshuu03/Cryptotracker
