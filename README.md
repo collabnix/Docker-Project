@@ -13,6 +13,8 @@ dockar build -t himanshuu03/crypto-react-app .
 step4
 #run it on server
 dockar run -p 3000:3000 himanshuu03/crypto-react-app
+</br>
 or
+</br>
 dockar run -publish 3000:3000 himanshuu03/crypto-react-app
 
