@@ -1,16 +1,18 @@
 Dockarize React-App
 
 Step1
-git clone #link
+git clone 
 
 step2
-cd #directory name
+cd Dockar-Project
 
 step3
 #create dockar image
 dockar build -t #name .
 
 step4
-#run it om server
-dockar run --publish 3000:3000 #name 
+#run it on server
+dockar run -p 3000:3000 #name 
+or
+dockar run -publish 3000:3000 #name 
 
