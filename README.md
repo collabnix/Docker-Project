@@ -1,4 +1,20 @@
-# Dockerize React-App
+# How to Build Crypto Tracker using React and Docker
+
+
+## Technical Stack
+
+- React.JS
+- Docker
+
+## How it works?
+
+[Add details here]
+
+
+## Prerequisite
+
+- Install Docker
+- 
 
 ## Step1 - Clone the repository
 
@@ -23,3 +39,5 @@ docker build -t himanshuu03/Cryptotracker .
 ```
  docker run -p 3000:3000 himanshuu03/Cryptotracker
 ```
+
+<img width="1039" alt="image" src="https://user-images.githubusercontent.com/34368930/183389616-98d53502-a4a4-4e2e-9145-e43823c4c929.png">
