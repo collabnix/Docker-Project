@@ -1,20 +1,25 @@
-Dockerize React-App
+# Dockerize React-App
 
-Step1
-git clone https://github.com/Himanshuu03/Docker-Project
+## Step1 - Clone the repository
 
-step2
+```
+ git clone https://github.com/Himanshuu03/Docker-Project
+```
 
-cd Docker-Project
+## Step2 - Change directory to Docker-project
 
-step3
+```
+ cd Docker-Project
+```
 
-#create docker image
+## Step3 - Create docker image
 
+```
 docker build -t himanshuu03/Cryptotracker .
+```
 
-step4
+## Step4 - Run it on server
 
-#run it on server
-
-docker run -p 3000:3000 himanshuu03/Cryptotracker
+```
+ docker run -p 3000:3000 himanshuu03/Cryptotracker
+```
